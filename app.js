@@ -7,6 +7,7 @@ const buttoncolor = document.getElementById('change-color');
 const buttoncolor2 = document.getElementById('color-change');
 const header = document.getElementById('head');
 const footer = document.getElementById('foot');
+const finalcolor = document.getElementById('final-color');
 //these consts relate to "name" and "generate" IDs in .html 
 
 button.addEventListener('click', ()=>{
@@ -27,6 +28,10 @@ buttoncolor2.addEventListener('click', ()=>{
     header.style.backgroundColor = ('tomato');
     footer.style.backgroundColor = ('peachpuff');
 });
+
+finalcolor.addEventListener('click', ()=>{
+    
+})
 // set event listeners 
   // get user input
   // use user input to update state 
