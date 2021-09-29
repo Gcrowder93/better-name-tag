@@ -20,7 +20,7 @@ button.addEventListener('click', ()=>{
 });
 
 buttoncolor.addEventListener('click', () =>{
-    header.style.backgroundColor = ('#112244');
+    header.style.backgroundColor = ('#444444');
     footer.style.backgroundColor = ('#332255'); 
 });
 
@@ -78,12 +78,15 @@ function randomLocation() {
     return {
         x: Math.random() * window.innerWidth - window.innerWidth / 2 + 'px',
         y: Math.random() * window.innerHeight - window.innerHeight / 2 + 'px',
-    }
+    };
 }
 
 function randomColor() {
     return `hsl(${Math.floor(Math.random() * 361)}, 100%, 50%)`;
 }
+
+
+
 // set event listeners 
   // get user input
   // use user input to update state 
