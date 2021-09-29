@@ -6,8 +6,10 @@ body, html {
     margin: 0;
 }
 div {
-    width: 202%;
+    width: 100%;
 }
+
+
 
 button {
     width: 20%;
@@ -59,4 +61,35 @@ footer {
     margin-top: 10px;
     margin-left: 10px;
     border-radius: 0px 0px 20px 20px; 
+}
+
+.particle {
+	--x: 0;
+	--y: 0;
+	background-color: rebeccapurple;
+	border-radius: 50%;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	height: 5px;
+	width: 5px;
+	z-index: -1;
+}
+
+.particle.move {
+	animation: move 1000ms linear forwards;
+}
+
+@keyframes move {
+	to {
+		transform: translate(var(--x), var(--y));
+	}
+	
+	95% {
+		opacity: 1;
+	}
+	
+	100% {
+		opacity: 0;
+	}
 }
