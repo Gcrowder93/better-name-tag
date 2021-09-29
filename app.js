@@ -9,8 +9,8 @@ button.addEventListener('click', ()=>{
   //when button is clicked
   //get value of input
   //replace text in nametag w/ value
-  let newName = nameInput.value;
-  firstName.textContent = newName;
+let newName = nameInput.value;
+firstName.textContent = newName;
 });
 
 // set event listeners 
