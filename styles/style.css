@@ -6,6 +6,11 @@ body, html {
     margin: 0;
 }
 
+button {
+    width: 20%;
+    margin-right: %;
+}
+
 * {
     box-sizing: border-box;
 }
