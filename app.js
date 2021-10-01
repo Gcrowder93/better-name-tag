@@ -7,7 +7,7 @@ const buttoncolor = document.getElementById('change-color');
 const buttoncolor2 = document.getElementById('color-change');
 const header = document.getElementById('head');
 const footer = document.getElementById('foot');
-const finalcolor = document.getElementById('final-color');
+
 //these consts relate to "name" and "generate" IDs in .html 
 
 button.addEventListener('click', ()=>{
@@ -18,6 +18,9 @@ button.addEventListener('click', ()=>{
     firstName.textContent = newName;
 
 });
+
+
+
 
 buttoncolor.addEventListener('click', () =>{
     header.style.backgroundColor = ('#444444');

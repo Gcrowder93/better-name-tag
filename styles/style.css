@@ -5,12 +5,29 @@ body, html {
     padding: 0;
     margin: 0;
 }
+
+
+#generate {
+    width: 23%;
+}
+
+
+
+.content {
+  max-width: 500px;
+  margin: auto;
+}
+
+#name {
+    width: 200px;
+}
+
 div {
     width: 100%;
 }
 
 button {
-    width: 20%;
+    width: 41%;
 }
 
 * {
@@ -33,6 +50,7 @@ h1 {
     font-size: 5rem;
     margin: 5px;
     line-height: 80px;
+    
 }
 
 h2 {

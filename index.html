@@ -11,43 +11,57 @@
     <link rel="stylesheet" href="./styles/home.css">
     <link href="https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap" rel="stylesheet">
     <title>Better Name Tag</title>
+    
 </head>
 
 <body>
 
-  <section id="controls">
-    <input type="text" name="name-tag-name" id="name">
-    <button id="generate">Generate Name Tag</button>
-    
-    </section>
+  <script>
+    function play() {
+      var audio = document.getElementById("audio");
+      audio.play();
+    }
+  </script>
+
+
+  
+  <audio id="audio" src="hi.mp3"></audio>
+
+   <div class="content"> 
+     
+   <select id="pronounSelect">Select pronoun>
+   <option value="He/Him">He/Him</option>
+   <option value="She/Her">She/Her</option>
+   <option value="They/Them">They/Them</option> 
+   
+<input type="text" name="name-tag-name" id="name">  
+<input type="button" value="♬" onclick="play()">
+      <button id="generate">Generate Tag</button><br>   
   <section id="name-tag"> 
     <header id="head">
       <h1>Hello</h1>
       <h2>my name is</h2>
     </header>
     <main id="first-name">Chase</main>
-    
+
+  
     <footer id="foot">
 </footer>
 </section>
-<section id="buttons">
 <button id="change-color">Change Color</button>
 <button id="color-change">Another Color</button>
 <br>
-
-<div><button id="btn">
+<button id="btn">
 Fire!(spam click)
 </button>
-
-
 <a id="lol" href='https://www.youtube.com/watch?v=dQw4w9WgXcQ' target=_blank><button>Final Form</button></a>
-<br>
-
+<br></div> 
 </div>
-</section>
  
 
 
 <script type="module" src="app.js"></script>
+
+</div>
 </body>
 </html>
